@@ -29,7 +29,7 @@ Section:CreateToggle({
     Default = false;
     Callback = function(state)
     if state then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/omnilocua/omnilocua/main/Anti%20Kill.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/killersess/omn/main/Anti%20Kill.lua"))()
     elseif not state then
     game.Players.LocalPlayer.Character.Humanoid.Sit = false
     end
@@ -130,7 +130,7 @@ Section2:CreateInteractable({
     Name = "Crash";
     ActionText = "Execute";
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/omnilocua/omnilocua/main/Crash.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/killersess/omn/main/Crash.lua"))()
     end;
     Warning = "Crash: To use this you must first take the potion and see if \n the effect gives you a big head, if it doesn't, restart your \n character and try again until you get a big head, after that \n just hit the crash option and wait 1 minute without touching \n any keys or you will bug the crash. \n\n Your avatar must be similar to this person's avatar: \n https://web.roblox.com/users/3487764435/profile \n User: iDecalsRoblox";
     WarningIcon = 10896788344;
@@ -141,7 +141,7 @@ local Section3 = Pages:CreateSection("Ragdoll Engine (Button)")
 Section3:CreateButton({
     Name = "Hat Fling";
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/omnilocua/omnilocua/main/Hat%20Fling.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/killersess/omn/main/Hat%20Fling.lua"))()
     end;
     Warning = "You can use it as normal, or drink the potion and make the hat even bigger and the fling even stronger.";
     WarningIcon = 10896788344;
@@ -151,7 +151,7 @@ Section2:CreateInteractable({
     Name = "Kill";
     ActionText = "Execute";
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/omnilocua/omnilocua/main/Kill.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/killersess/omn/main/Kill.lua"))()
     end;
     Warning = "Kill: For this to work you must first have bought the push\n and the potion, otherwise it will be full of errors.";
     WarningIcon = 10896788344;
@@ -161,7 +161,7 @@ Section2:CreateInteractable({
     Name = "Kill Fling";
     ActionText = "Execute";
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/omnilocua/omnilocua/main/Kill%20Fling.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/killersess/omn/main/Kill%20Fling.lua"))()
     end;
     Warning = "Kill Fling: This basically is almost the same as the kill, \n the only thing that changes is that you can kill people \n bigger than your character, remember that if that person is \n not walking, this will not work, the target must be moving.";
     WarningIcon = 10896788344;
@@ -170,7 +170,7 @@ Section2:CreateInteractable({
 Section3:CreateButton({
     Name = "Character Fling";
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/omnilocua/omnilocua/main/Touch%20Fling.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/killersess/omn/main/Touch%20Fling.lua"))()
     end;
     Warning = "Toggle X";
     WarningIcon = 10896788344;
@@ -179,7 +179,7 @@ Section3:CreateButton({
 Section3:CreateButton({
     Name = "Invisible Character";
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/omnilocua/omnilocua/main/Invisible.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/killersess/omn/main/Invisible.lua"))()
     end;
 })
 
