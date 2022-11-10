@@ -1,10 +1,10 @@
-local omni = loadstring(game:HttpGet("https://raw.githubusercontent.com/omnilocua/omnilocua/main/omniLibrary.lua"))()
+local omni = loadstring(game:HttpGet("https://raw.githubusercontent.com/killersess/omn/main/omniLibrary.lua"))()
 
 local UI = omni.new({
     Name = "omnilocuaHub";
     ConfigFolder = "cqWlWmwGpYyOb2VnowB9";
     Credit = "Made By omnilocua";
-    Color = Color3.fromRGB(255,0,0);
+    Color = Color3.fromRGB(255,255,0);
     Bind = "LeftControl";
     UseLoader = true;
     FullName = "omnilocuaHub";
